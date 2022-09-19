@@ -41,11 +41,9 @@ balaluga_animations_move = [pygame.image.load("image/animations/Cats/balaluga/ba
 ##______________________________________________________________________________
 ##          red_rhino
 
-nosorog_animations_move = [pygame.image.load("image/nos.png"), pygame.image.load("image/nos.png"), pygame.image.load("image/nos.png"), pygame.image.load("image/nos.png")]
+nosorog_animations_move = [pygame.image.load("image/animations/Enemy/Red_rhino/red_rhino1.png"), pygame.image.load("image/animations/Enemy/Red_rhino/red_rhino2.png"), pygame.image.load("image/animations/Enemy/Red_rhino/red_rhino3.png"), pygame.image.load("image/animations/Enemy/Red_rhino/red_rhino2.png")]
+nosorog_animations_attack = [pygame.image.load("image/animations/Enemy/Red_rhino/red_rhino1_attack.png"), pygame.image.load("image/animations/Enemy/Red_rhino/red_rhino2_attack.png"), pygame.image.load("image/animations/Enemy/Red_rhino/red_rhino3_attack.png"), pygame.image.load("image/animations/Enemy/Red_rhino/red_rhino2_attack.png")]
 
 red_rhino_animations = {"move": nosorog_animations_move,
-             "attack": nosorog_animations_move}
+                        "attack": nosorog_animations_attack}
 ##         DICT
-
-
-print(len(shishilan_animations["move"]))
